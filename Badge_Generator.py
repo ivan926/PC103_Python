@@ -21,9 +21,11 @@ advTraining = input("Have you recieved advanced training (type yes or no): ")
 #Below is the printed variables along with 
 #the proper functions appended
 
+print()
+
 print("The ID Card is: ")
 
-print("-------------------------------")
+print("------------------------------------")
 
 print(lastName.upper() + ", " + firstName)
 
@@ -39,8 +41,8 @@ print(phoneNumber)
 
 print()
 
-print(f"{'Hair: ' + hairColor.capitalize():<25} Eyes: {eyeColor.capitalize()}")
+print(f"{'Hair: ' + hairColor.capitalize():<20} Eyes: {eyeColor.capitalize()}")
 
-print(f"{'Month: ' + startMonth.capitalize():<25} Training: {advTraining.capitalize()}")
+print(f"{'Month: ' + startMonth.capitalize():<20} Training: {advTraining.capitalize()}")
 
-print("-------------------------------")
+print("------------------------------------")
